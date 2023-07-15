@@ -1,5 +1,4 @@
-##The provided CNN architecture for the Fashion MNIST dataset is a simple yet effective model for image classification. 
-##Let's break down the architecture step-by-step:
+## CNN Architecture 
 
 1. Convolutional Layer 1:
    - Input: Single-channel grayscale images with a size of 28x28 pixels.
