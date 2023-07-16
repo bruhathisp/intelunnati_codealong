@@ -1,7 +1,10 @@
 #Model Architecture 
 
-![alt text](approach/img1.png "Graph")
-![alt text](approach/img2.png "Legend")
+![image](https://github.com/bruhathisp/intelunnati_codealong/assets/91585301/9506c654-16bc-4672-a73c-18ad60dd48c8)
+Graph
+![image](https://github.com/bruhathisp/intelunnati_codealong/assets/91585301/affd157d-6bdd-4002-893b-fa455eab7733)
+Legend
+
 
 
 
