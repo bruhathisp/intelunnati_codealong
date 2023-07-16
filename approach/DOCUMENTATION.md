@@ -38,7 +38,7 @@ The Fashion MNIST CNN Architecture has a total of approximately 66,442 trainable
 
 
 
-Layer (type)               Output Shape         Param #
+Layer (type)               Output Shape         Param 
 ================================================================
             Conv2d-1           [-1, 16, 28, 28]             160
               ReLU-2           [-1, 16, 28, 28]               0
