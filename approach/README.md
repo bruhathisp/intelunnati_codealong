@@ -1,45 +1,4 @@
-## CNN Architecture 
-
-1. Convolutional Layer 1:
-   - Input: Single-channel grayscale images with a size of 28x28 pixels.
-   - Output: 16 feature maps, obtained by applying 16 filters of size 3x3 to the input image.
-   - Activation Function: ReLU (Rectified Linear Unit) is applied to the output of the convolutional layer to introduce non-linearity.
-
-  2. Max-Pooling Layer 1:
-   - Max-pooling is applied to reduce the spatial dimensions of the feature maps.
-   - The pooling operation is performed with a kernel size of 2x2 and a stride of 2, resulting in a halving of the spatial dimensions.
-
-  3. Convolutional Layer 2:
-   - Input: 16 feature maps from the previous layer.
-   - Output: 32 feature maps, obtained by applying 32 filters of size 3x3 to the input feature maps.
-   - Activation Function: ReLU.
-
-4. Max-Pooling Layer 2:
-   - Max-pooling with a kernel size of 2x2 and a stride of 2, reducing the spatial dimensions further.
-
-5. Flattening Layer:
-   - The output of the last max-pooling layer is flattened into a 1-dimensional vector, preparing it for the fully connected layers.
-
-6. Fully Connected Layer 1 (Dense Layer):
-   - Input: The flattened vector representing the 32x7x7 feature maps (32 channels with 7x7 spatial dimensions).
-   - Output: 128 neurons in the hidden layer.
-   - Activation Function: ReLU.
-
-7. Fully Connected Layer 2 (Output Layer):
-   - Input: 128 neurons from the previous hidden layer.
-   - Output: 10 neurons representing the class probabilities for each of the 10 Fashion MNIST categories (e.g., T-shirt/top, Trouser, Pullover, etc.).
-   - No activation function is applied to the output layer since it represents raw class scores.
-
-The CNN architecture follows a common pattern used for image classification tasks. 
-Convolutional layers help to extract relevant features from the input images, and the max-pooling layers reduce spatial dimensions to retain the most
-important information. The fully connected layers at the end of the network perform the final classification based on the learned features.
-
-Overall, this architecture can provide reasonable performance for the Fashion MNIST dataset, and the model can be further optimized using various
-techniques like learning rate scheduling, data augmentation, and early stopping during training. The SAM optimizer and Intel optimization further enhance the 
-model's training process, leading to potential improvements in accuracy and convergence.
-
-
-## Approach:
+# Approach:
 
 ### 1. Convolutional Neural Network (CNN) Architecture:
 The code provided defines a simple Convolutional Neural Network (CNN) architecture for classifying Fashion MNIST images. 
