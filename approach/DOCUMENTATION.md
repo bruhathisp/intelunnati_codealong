@@ -51,6 +51,7 @@ Layer (type)               Output Shape         Param
               ReLU-9                  [-1, 128]               0
            Linear-10                   [-1, 10]           1,290
 ================================================================
+
 Total params: 206,922
 Trainable params: 206,922
 
