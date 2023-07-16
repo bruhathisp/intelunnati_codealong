@@ -11,6 +11,8 @@ The implementation of image classification task is held using the Fashion MNIST 
 ### Introduction
 
 Fashion MNIST is a widely used dataset in the field of computer vision and machine learning. It comprises 60,000 training images and 10,000 test images of 28x28 grayscale clothing items, each belonging to one of ten classes (e.g., T-shirt, trouser, dress, etc.). The goal of this project is to design a CNN model to accurately classify these images.
+![image](https://github.com/bruhathisp/intelunnati_codealong/assets/91585301/215ee496-d849-4be8-b22d-03e4e2e22b54)
+
 
 ### Dependencies
 
@@ -46,7 +48,9 @@ The code implements Intel's optimization techniques for deep learning, particula
 
 #### Model Training
 
-The model is trained on the training dataset using the SAM optimizer. The training process is carried out over a specified number of epochs. During training, the model's accuracy and loss are monitored to assess its performance.
+The model is trained on the training dataset using the SAM optimizer[1]. The training process is carried out over a specified number of epochs. During training, the model's accuracy and loss are monitored to assess its performance. 
+![image](https://github.com/bruhathisp/intelunnati_codealong/assets/91585301/9627e23b-d150-47a2-b70a-f6dec45447a1)
+
 
 #### Hyperparameter Tuning
 
@@ -67,3 +71,11 @@ In conclusion, this report presents a comprehensive framework for training and e
 The success of the model is evaluated through various performance metrics, including accuracy, precision, recall, F1-score, ROC curves, and IoU. This enables a thorough assessment of the model's capabilities in classifying clothing images accurately.
 
 Overall, the framework serves as a valuable tool for researchers and practitioners interested in deep learning and computer vision tasks, offering insights into the impact of optimization techniques on model performance and training efficiency. As new optimization algorithms and hardware capabilities emerge, this framework can be easily adapted to explore and experiment with the latest advancements in the field.
+
+### References
+[1] Foret, P., Kleiner, A., Mobahi, H., & Neyshabur, B. (2021). Sharpness-Aware Minimization for Efficiently Improving Generalization. Google Research.
+[2] Zhilu Zhang and Mert R. Sabuncu. Generalized cross entropy loss for training deep neural networks with noisy labels. CoRR, abs/1805.07836, 2018.
+[3] Han Xiao, Kashif Rasul, and Roland Vollgraf. Fashion-mnist: a novel image dataset for benchmarking machine learning algorithms. CoRR, abs/1708.07747, 2017.
+[4] Longhui Wei, An Xiao, Lingxi Xie, Xin Chen, Xiaopeng Zhang, and Qi Tian. Circumventing Outliers of AutoAugment with Knowledge Distillation. arXiv e-prints, art. arXiv:2003.11342, March 2020.
+[5] J. Huang, L. Qu, R. Jia, and B. Zhao. O2u-net: A simple noisy label detection approach for deep neural networks. In 2019 IEEE/CVF International Conference on Computer Vision (ICCV), pp. 3325–3333, 2019.
+
