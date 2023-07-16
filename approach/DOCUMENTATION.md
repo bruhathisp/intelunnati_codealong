@@ -1,7 +1,7 @@
 #Model Architecture 
 
-![alt text](https://github.com/bruhathisp/intelunnati_codealong/new/main/approach/img1.png"Graph")
-![alt text](https://github.com/bruhathisp/intelunnati_codealong/new/main/approach/img2.png"Legend")
+![alt text](https://github.com/bruhathisp/intelunnati_codealong/new/main/approach/img1.png "Graph")
+![alt text](https://github.com/bruhathisp/intelunnati_codealong/new/main/approach/img2.png "Legend")
 
 
 
